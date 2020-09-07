@@ -1,25 +1,19 @@
+# -*-coding:utf-8 -*-
+# @Author: lixiao
+# Created on: 2020-06-15
+
 import ddt
 import unittest
 from datetime import datetime
-from Util.data_organize import test_data
-from Log.logger_handler import Logger
 from Util.yaml_handle import Yaml
+from Log.logger_handler import Logger
 from Action.App_actions import Driver
 from Util.Excel_parse import HandleExcel
+from Util.data_organize import test_data
 
 logger = Logger(logger='case_01').getlog()
 data = test_data()
-# print(data)
 currTime = datetime.now().strftime("%Y-%m-%d-%H:%M:%S")
-
-
-# yaml_data = Yaml().get_yaml('\Page_case\Home_search.yaml', data[0][0])
-# print(yaml_data)
-# @ddt.ddt
-# class PageTest(unittest.TestCase):
-#     @ddt.data(*data)
-#     def test_case01(self, data1):
-#         print(data1)
 
 
 @ddt.ddt

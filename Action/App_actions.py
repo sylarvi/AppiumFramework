@@ -1,15 +1,18 @@
+# -*-coding:utf-8 -*-
+# @Author: lixiao
+# Created on: 2020-06-15
+
 import time
-from datetime import datetime
 from appium import webdriver
-from appium.webdriver.common.touch_action import TouchAction
+from datetime import datetime
 from Util.yaml_handle import Yaml
 from Log.logger_handler import Logger
 from Config.project_var import screenshot_path
+from appium.webdriver.common.touch_action import TouchAction
 
 file = '\Config\device_config.yaml'
 kw = 'MIX_2'
 data = Yaml().get_yaml(file, kw)
-# print(data)
 logger = Logger(logger='App_actions').getlog()
 
 
@@ -44,7 +47,6 @@ class Driver:
         elif type == 'name':  # 根据元素name属性定位
             element = self.driver.find_element_by_name(keyword)
         elif type == 'source_id':
-            # print("new UiSelector().resourceId({})".format(keyword))
             element = self.driver.find_element_by_android_uiautomator('new UiSelector().resourceId("{}")'.format(keyword))
         elif type == 'text':
             element = self.driver.find_element_by_android_uiautomator('new UiSelector().text("%s")' % keyword)
@@ -74,7 +76,7 @@ class Driver:
             logger.error('清除输入框内容失败：{}'.format(e))
 
     def assert_string_in_pagesource(self, assertString, *args):
-        "断言页面源码是否存在某关键字或关键字符串"
+        """断言页面源码是否存在某关键字或关键字符串"""
         page_source = self.driver.page_source
         try:
             assert assertString in page_source, "{} not found in page source!".format(assertString)
@@ -93,10 +95,8 @@ class Driver:
     def screencap(self, *args):
         """截取屏幕图片"""
         currTime = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")  # 获取当前时间，精确到毫秒
-        # 拼接异常图片保存的绝对路径及名称
         picNameAndPath = screenshot_path + "/" + str(currTime) + ".png"
         try:
-            "截取屏幕图片，并保存为本地文件"
             self.driver.get_screenshot_as_file(picNameAndPath)
         except Exception as e:
             logger.error('当前屏幕截图失败：{}'.format(e))
