@@ -1,0 +1,19 @@
+MIX_2:
+  platformName: "Android"
+  platformVersion: "9"
+  deviceName: "cbc67a60"
+  appPackage: "air.tv.douyu.android"
+  appActivity: "com.douyu.module.home.pages.main.MainActivity"
+  unicodeKeyboard: True
+  resetKeyboard: True
+  noReset: True
+
+BIG_2:
+  platformName: "ios"
+  platformVersion: "9.1"
+  deviceName: "786475446a60"
+  appPackage: "air.tv.douyu.android"
+  appActivity: "com.douyu.module.home.pages.main.MainActivity"
+  unicodeKeyboard: True
+  resetKeyboard: True
+  noReset: True

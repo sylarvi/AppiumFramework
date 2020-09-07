@@ -1,0 +1,15 @@
+2020-09-07 04:16:22,085 - App_actions.py[line:29] - App_actions - INFO - 初始化设备成功
+2020-09-07 04:16:29,085 - case_01.py[line:34] - case_01 - INFO - 开始执行测试用例:case01
+2020-09-07 04:16:29,132 - case_01.py[line:38] - case_01 - INFO - 执行case01_步骤:点击首页搜索框
+2020-09-07 04:16:33,350 - case_01.py[line:38] - case_01 - INFO - 执行case01_步骤:搜索页搜索框输入关键字
+2020-09-07 04:16:43,283 - case_01.py[line:38] - case_01 - INFO - 执行case01_步骤:点击搜索结果
+2020-09-07 04:16:48,623 - case_01.py[line:38] - case_01 - INFO - 执行case01_步骤:点击主播按钮
+2020-09-07 04:16:55,560 - case_01.py[line:38] - case_01 - INFO - 执行case01_步骤:定位主播名称
+2020-09-07 04:17:05,175 - App_actions.py[line:29] - App_actions - INFO - 初始化设备成功
+2020-09-07 04:17:12,176 - case_01.py[line:34] - case_01 - INFO - 开始执行测试用例:case02
+2020-09-07 04:17:12,219 - case_01.py[line:38] - case_01 - INFO - 执行case02_步骤:点击登录框
+2020-09-07 04:17:16,780 - case_01.py[line:38] - case_01 - INFO - 执行case02_步骤:点击登录/注册按钮
+2020-09-07 04:17:21,987 - case_01.py[line:38] - case_01 - INFO - 执行case02_步骤:点击一键登录按钮
+2020-09-07 04:17:28,102 - case_01.py[line:38] - case_01 - INFO - 执行case02_步骤:定位用户名称名称
+2020-09-07 04:17:28,103 - App_actions.py[line:91] - App_actions - ERROR - ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2020-09-07 04:17:28,177 - case_01.py[line:54] - case_01 - ERROR -  :: 用户90569612 != None

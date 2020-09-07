@@ -1,0 +1,18 @@
+2020-09-07 04:21:00,599 - App_actions.py[line:29] - App_actions - INFO - 初始化设备成功
+2020-09-07 04:21:07,599 - case_01.py[line:34] - case_01 - INFO - 开始执行测试用例:case01
+2020-09-07 04:21:07,646 - case_01.py[line:38] - case_01 - INFO - 执行case01_步骤:点击首页搜索框
+2020-09-07 04:21:12,027 - case_01.py[line:38] - case_01 - INFO - 执行case01_步骤:搜索页搜索框输入关键字
+2020-09-07 04:21:21,079 - case_01.py[line:38] - case_01 - INFO - 执行case01_步骤:点击搜索结果
+2020-09-07 04:21:26,367 - case_01.py[line:38] - case_01 - INFO - 执行case01_步骤:点击主播按钮
+2020-09-07 04:21:30,889 - case_01.py[line:38] - case_01 - INFO - 执行case01_步骤:定位主播名称
+2020-09-07 04:21:40,561 - App_actions.py[line:29] - App_actions - INFO - 初始化设备成功
+2020-09-07 04:21:47,561 - case_01.py[line:34] - case_01 - INFO - 开始执行测试用例:case02
+2020-09-07 04:21:47,604 - case_01.py[line:38] - case_01 - INFO - 执行case02_步骤:点击登录框
+2020-09-07 04:21:52,177 - case_01.py[line:38] - case_01 - INFO - 执行case02_步骤:点击登录/注册按钮
+2020-09-07 04:21:57,368 - case_01.py[line:38] - case_01 - INFO - 执行case02_步骤:点击一键登录按钮
+2020-09-07 04:21:57,404 - App_actions.py[line:60] - App_actions - ERROR - 点击元素(air.tv.douyu.android:id/a7v)失败：Message: An element could not be located on the page using the given search parameters.
+
+2020-09-07 04:22:07,404 - case_01.py[line:38] - case_01 - INFO - 执行case02_步骤:定位用户名称名称
+2020-09-07 04:22:07,464 - App_actions.py[line:91] - App_actions - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2020-09-07 04:22:07,538 - case_01.py[line:54] - case_01 - ERROR -  :: 用户90569612 != None

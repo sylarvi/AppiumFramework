@@ -1,0 +1,65 @@
+
+case01:
+  点击首页搜索框:
+    find_type: id
+    element_info: air.tv.douyu.android:id/cvq
+    operate_type: click
+    time: 4
+    text:
+
+  搜索页搜索框输入关键字:
+    find_type: id
+    element_info: air.tv.douyu.android:id/d1y
+    operate_type: input
+    time: 4
+    text: zippO
+
+  点击搜索结果:
+    find_type: xpath
+    element_info: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView[2]
+    operate_type: click
+    time: 5
+    text:
+
+  点击主播按钮:
+    find_type: text
+    element_info: 主播
+    operate_type: click
+    time: 4
+    text:
+
+  定位主播名称:
+    find_type: id
+    element_info: air.tv.douyu.android:id/aup
+    operate_type: get_attributes
+    time: 4
+    text: text
+
+case02:
+  点击登录框:
+    find_type: id
+    element_info: air.tv.douyu.android:id/mb
+    operate_type: click
+    time: 4
+    text:
+
+  点击登录/注册按钮:
+    find_type: id
+    element_info: air.tv.douyu.android:id/bvs
+    operate_type: click
+    time: 5
+    text:
+
+  点击一键登录按钮:
+    find_type: id
+    element_info: air.tv.douyu.android:id/a7v
+    operate_type: click
+    time: 10
+    text:
+
+  定位用户名称名称:
+    find_type: id
+    element_info: air.tv.douyu.android:id/px
+    operate_type: get_attributes
+    time: 5
+    text: text

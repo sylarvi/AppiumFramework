@@ -1,0 +1,16 @@
+2020-09-07 04:19:43,705 - App_actions.py[line:29] - App_actions - INFO - 初始化设备成功
+2020-09-07 04:19:50,705 - case_01.py[line:34] - case_01 - INFO - 开始执行测试用例:case01
+2020-09-07 04:19:50,752 - case_01.py[line:38] - case_01 - INFO - 执行case01_步骤:点击首页搜索框
+2020-09-07 04:19:55,186 - case_01.py[line:38] - case_01 - INFO - 执行case01_步骤:搜索页搜索框输入关键字
+2020-09-07 04:20:05,703 - case_01.py[line:38] - case_01 - INFO - 执行case01_步骤:点击搜索结果
+2020-09-07 04:20:11,034 - case_01.py[line:38] - case_01 - INFO - 执行case01_步骤:点击主播按钮
+2020-09-07 04:20:15,469 - case_01.py[line:38] - case_01 - INFO - 执行case01_步骤:定位主播名称
+2020-09-07 04:20:27,069 - App_actions.py[line:29] - App_actions - INFO - 初始化设备成功
+2020-09-07 04:20:34,069 - case_01.py[line:34] - case_01 - INFO - 开始执行测试用例:case02
+2020-09-07 04:20:34,113 - case_01.py[line:38] - case_01 - INFO - 执行case02_步骤:点击登录框
+2020-09-07 04:20:39,457 - case_01.py[line:38] - case_01 - INFO - 执行case02_步骤:点击登录/注册按钮
+2020-09-07 04:20:39,578 - App_actions.py[line:60] - App_actions - ERROR - 点击元素(air.tv.douyu.android:id/bvs)失败：Message: An element could not be located on the page using the given search parameters.
+
+2020-09-07 04:20:44,578 - case_01.py[line:38] - case_01 - INFO - 执行case02_步骤:点击一键登录按钮
+2020-09-07 04:20:44,672 - App_actions.py[line:60] - App_actions - ERROR - 点击元素(air.tv.douyu.android:id/a7v)失败：Message: An element could not be located on the page using the given search parameters.
+
