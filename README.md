@@ -51,6 +51,6 @@ Utils
 ```
 --data_organize.py 		构造测试驱动数据模块
 --Excel_parse.py 		解析excel文件模块
---yaml_handle.py 		解析yaml配置文件mok
+--yaml_handle.py 		解析yaml配置文件
 ```
 
